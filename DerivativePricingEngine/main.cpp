@@ -11,8 +11,12 @@
 #include <numeric>
 #include <algorithm>
 
+using namespace std;
+
 int main(int argc, const char * argv[])
 {
-    
+    vector<int> vec{1,2,3,4,5};
+    for(auto v : vec)
+        cout << v << '\n';
     
 }
