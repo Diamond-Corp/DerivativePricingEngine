@@ -10,6 +10,7 @@
 
 #include <cmath>
 #include <vector>
+#include <iostream>
 
 using namespace std;
 
@@ -33,13 +34,14 @@ public :
     virtual double std() const = 0;
     
     // Obtain a sequence of random draws from this distribution
-    virtual void random_draws(const vector<double> &uniform_draws, vector<double> dist_draws) = 0;
+    virtual void random_draws(const vector<double> &uniform_draws, vector<double> &dist_draws) = 0;
  
     
 };
 
 class StandardNormalDistribution : public StatisticalDistribution
 {
+public:
     StandardNormalDistribution();
     virtual ~StandardNormalDistribution();
     
@@ -56,7 +58,7 @@ class StandardNormalDistribution : public StatisticalDistribution
     virtual double std() const ; // equal to 1
     
     // Obtain a sequence of random draws from the standard normal distribution distribution
-    virtual void random_draws(const vector<double> &uniform_draws, vector<double> dist_draws) = 0;
+    virtual void random_draws(const vector<double> &uniform_draws, vector<double> &dist_draws);
     
     
 };

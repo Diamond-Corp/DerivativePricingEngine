@@ -8,11 +8,10 @@
 #include <iostream>
 #include <vector>
 
-#include "Statistics.h"
 
 using namespace std;
 
-int main(int argc, const char * argv[])
+int psedo_main(int argc, const char * argv[])
 {
     vector<int> vec{1,2,3,4,5};
     for(auto v : vec)
