@@ -7,11 +7,12 @@
 
 #include <iostream>
 #include <vector>
+#include "Correlated_snd.h"
 
 
 using namespace std;
 
-int psedo_main(int argc, const char * argv[])
+int main(int argc, const char * argv[])
 {
     vector<int> vec{1,2,3,4,5};
     for(auto v : vec)
