@@ -20,7 +20,11 @@ protected:
     virtual void correlation_calc(vector<double>& dist_draws);
     
 public:
+    CorrelatedSND(const double _rho, const vector<double>* _uncorr_draws);
+    virtual ~CorrelatedSND();
     
+    //Obtain a sequence of correlated random draws from another set of SND draws
+    virtual void random_draws(const vector<double>& uniform_draws, vector<double>& dist_draws);
     
 };
 
