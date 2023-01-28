@@ -11,6 +11,8 @@
 #include "AsianOption.hpp"
 #include "PayOff.hpp"
 #include "Path_Generation_Asian.h"
+#include "Option.hpp"
+#include "Heston_mc.hpp"
 
 
 using namespace std;
