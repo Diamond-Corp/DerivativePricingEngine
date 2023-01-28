@@ -7,7 +7,9 @@
 
 #include <iostream>
 #include <vector>
-//#include "Correlated_snd.h"
+#include "Correlated_snd.h"
+#include "AsianOption.hpp"
+#include "PayOff.hpp"
 
 
 using namespace std;

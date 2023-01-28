@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3E51B1F829834EFA008043D9 /* Correlated_snd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E51B1F729834EFA008043D9 /* Correlated_snd.cpp */; };
 		3E51B1F929835082008043D9 /* Statistics.h in Sources */ = {isa = PBXBuildFile; fileRef = 3E51B1F029832C18008043D9 /* Statistics.h */; };
-		3E51B1FA29835082008043D9 /* Statistics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E51B1F129833A81008043D9 /* Statistics.cpp */; };
 		3E51B1FB29835082008043D9 /* Correlated_snd.h in Sources */ = {isa = PBXBuildFile; fileRef = 3E51B1F5298344CB008043D9 /* Correlated_snd.h */; };
-		3E51B1FD29835282008043D9 /* CorrelatedSnd_Library_Test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E51B1FC29835282008043D9 /* CorrelatedSnd_Library_Test.cpp */; };
+		3E51B1FE298592CD008043D9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E51B1E929832ABD008043D9 /* main.cpp */; };
+		3E51B20529859423008043D9 /* PayOff.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E51B20029859309008043D9 /* PayOff.hpp */; };
+		3E51B20629859423008043D9 /* AsianOption.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E51B203298593BD008043D9 /* AsianOption.hpp */; };
+		3E51B207298596F6008043D9 /* Statistics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E51B1F129833A81008043D9 /* Statistics.cpp */; };
+		3E51B208298596F6008043D9 /* Correlated_snd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E51B1F729834EFA008043D9 /* Correlated_snd.cpp */; };
+		3E51B209298596F6008043D9 /* PayOff.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E51B1FF29859309008043D9 /* PayOff.cpp */; };
+		3E51B20A298596F6008043D9 /* AsianOption.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E51B202298593BD008043D9 /* AsianOption.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +39,11 @@
 		3E51B1F5298344CB008043D9 /* Correlated_snd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Correlated_snd.h; sourceTree = "<group>"; };
 		3E51B1F729834EFA008043D9 /* Correlated_snd.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Correlated_snd.cpp; sourceTree = "<group>"; };
 		3E51B1FC29835282008043D9 /* CorrelatedSnd_Library_Test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CorrelatedSnd_Library_Test.cpp; sourceTree = "<group>"; };
+		3E51B1FF29859309008043D9 /* PayOff.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PayOff.cpp; sourceTree = "<group>"; };
+		3E51B20029859309008043D9 /* PayOff.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PayOff.hpp; sourceTree = "<group>"; };
+		3E51B202298593BD008043D9 /* AsianOption.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AsianOption.cpp; sourceTree = "<group>"; };
+		3E51B203298593BD008043D9 /* AsianOption.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AsianOption.hpp; sourceTree = "<group>"; };
+		3E51B20B29859BF0008043D9 /* Path_Generation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Path_Generation.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +83,11 @@
 				3E51B1F5298344CB008043D9 /* Correlated_snd.h */,
 				3E51B1F729834EFA008043D9 /* Correlated_snd.cpp */,
 				3E51B1FC29835282008043D9 /* CorrelatedSnd_Library_Test.cpp */,
+				3E51B1FF29859309008043D9 /* PayOff.cpp */,
+				3E51B20029859309008043D9 /* PayOff.hpp */,
+				3E51B202298593BD008043D9 /* AsianOption.cpp */,
+				3E51B203298593BD008043D9 /* AsianOption.hpp */,
+				3E51B20B29859BF0008043D9 /* Path_Generation.h */,
 			);
 			path = DerivativePricingEngine;
 			sourceTree = "<group>";
@@ -135,11 +149,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E51B207298596F6008043D9 /* Statistics.cpp in Sources */,
+				3E51B208298596F6008043D9 /* Correlated_snd.cpp in Sources */,
+				3E51B209298596F6008043D9 /* PayOff.cpp in Sources */,
+				3E51B20A298596F6008043D9 /* AsianOption.cpp in Sources */,
+				3E51B20529859423008043D9 /* PayOff.hpp in Sources */,
+				3E51B20629859423008043D9 /* AsianOption.hpp in Sources */,
+				3E51B1FE298592CD008043D9 /* main.cpp in Sources */,
 				3E51B1F929835082008043D9 /* Statistics.h in Sources */,
-				3E51B1FA29835082008043D9 /* Statistics.cpp in Sources */,
-				3E51B1FD29835282008043D9 /* CorrelatedSnd_Library_Test.cpp in Sources */,
 				3E51B1FB29835082008043D9 /* Correlated_snd.h in Sources */,
-				3E51B1F829834EFA008043D9 /* Correlated_snd.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
