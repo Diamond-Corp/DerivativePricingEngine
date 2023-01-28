@@ -10,6 +10,7 @@
 #include "Correlated_snd.h"
 #include "AsianOption.hpp"
 #include "PayOff.hpp"
+#include "Path_Generation_Asian.h"
 
 
 using namespace std;
