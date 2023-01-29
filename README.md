@@ -4,8 +4,8 @@ This is a working Derivatives Pricing Engine with the following libraries :
   - Asian Options
   - Heston Model
   - Statistical Distributions
-  - Black Scholes
+  - Black Scholes Merton
   - SABR Model
-  - Black Scholes
+  - Black 76
   
 You can run individual components thrugh the main provided for each library.
