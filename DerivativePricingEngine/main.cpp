@@ -14,6 +14,8 @@
 #include "Option.hpp"
 #include "Heston_mc.hpp"
 #include "CubicRoot_Solver.hpp"
+#include "FindAlpha.hpp"
+#include "AlpahSABR.hpp"
 
 
 using namespace std;
