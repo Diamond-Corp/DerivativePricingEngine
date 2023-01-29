@@ -13,6 +13,7 @@
 #include "Path_Generation_Asian.h"
 #include "Option.hpp"
 #include "Heston_mc.hpp"
+#include "CubicRoot_Solver.hpp"
 
 
 using namespace std;
